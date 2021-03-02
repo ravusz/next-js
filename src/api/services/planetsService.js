@@ -1,8 +1,8 @@
 import StarWarsProvider from '../StarWarsProvider';
 
 class PlanetsService extends StarWarsProvider {
-  async getPlanets() {
-    return this.api.get('');
+  async getPlanets(page) {
+    return this.api.get('', { params: { page } });
   }
 }
 
