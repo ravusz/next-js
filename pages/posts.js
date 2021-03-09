@@ -58,10 +58,6 @@ const PostsPage = () => {
 
         return ({
           posts: posts.filter(({ id }) => {
-            console.log('ididididid', id)
-            console.log('postIdpostIdpostIdpostId', postId)
-
-
             return id !== postId
           })
         })
