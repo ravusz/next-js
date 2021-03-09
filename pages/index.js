@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Star Wars Info</h1>
+        <h1>Post</h1>
         <Navbars />
       </main>
     </div>

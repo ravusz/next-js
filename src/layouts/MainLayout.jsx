@@ -5,7 +5,7 @@ import { Flex } from 'rebass'
 const MainLayout = ({ children }) => {
   return (
     <main>
-      <h1>Star Wars Info</h1>
+      <h1>Posts</h1>
       <Navbar />
       <Flex flexDirection="column" justifyContent="center" >
         {children}
